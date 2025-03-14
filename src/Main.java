@@ -38,5 +38,6 @@ public class Main {
 //        }
 //  输出100以内的质数
 
+
     }
 }

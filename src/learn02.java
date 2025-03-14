@@ -29,9 +29,9 @@ public class learn02 {
 //            System.out.println(i + "\t" + cube(i));
 //        }
 //
-//    }
-//        static int cube (int n){
-//    return n*n*n;
+   }
+       static int cube (int n){
+   return n*n*n;
 
     }
 }

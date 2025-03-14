@@ -24,13 +24,14 @@ public class learn02 {
 //for (int num : arr) {
 //    System.out.print(num + " ");
 //}
+//调用方法
+//        for (int i=0; i<6; i++){
+//            System.out.println(i + "\t" + cube(i));
+//        }
 //
-        for (int i=0; i<6; i++){
-            System.out.println(i + "\t" + cube(i));
-        }
+//    }
+//        static int cube (int n){
+//    return n*n*n;
 
-    }
-        static int cube (int n){
-    return n*n*n;
     }
 }

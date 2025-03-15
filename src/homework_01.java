@@ -5,18 +5,26 @@ public class homework_01 {
         Scanner sc = new Scanner(System.in);
         System.out.println("输入一个10至20之间的数字: ");
 
-        int n;
-        int sum = 0;
-        do {n = sc.nextInt();
-            for (int i = 1; i <= n; i++){
-                int j = 1;
-                
-                sum = i/j;
+        //定义初始变量
+        double i = 1;
+        double sum1 = 0;
+        double sum2 = 1;
+        double result = 0;
+        int n = sc.nextInt();
 
-            }
-
-        } while (n < 10 || n > 20);
+        //确保n在10到20之间
+        if (n >= 10 && n <= 20) {
+            //执行循环
+            do {
+                sum1 = sum1 + i;
+                sum2 = sum2 * i;
+                i++;
+                result = result + sum2 / sum1;
+            } while (i <= n);
+            System.out.println(result);
+        } else {
+            System.out.println("输入的数字不在10到20之间");
+        }
         sc.close();
-        System.out.println(sum);
     }
 }

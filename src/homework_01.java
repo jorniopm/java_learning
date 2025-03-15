@@ -16,7 +16,6 @@ public class homework_01 {
 
         //确保n在10到20之间
         if (n >= 10 && n <= 20) {
-            //执行循环
             do {
                 sum1 = sum1 + i;
                 sum2 = sum2 * i;
@@ -32,7 +31,6 @@ public class homework_01 {
         sc.nextLine(); //清空缓冲区
         System.out.print("输入一个字符串: ");
         String s1 = sc.nextLine().toUpperCase();
-        sc.close();
         System.out.println(s1);
         
     }

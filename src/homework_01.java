@@ -28,10 +28,11 @@ public class homework_01 {
         }
 
 //以下为第二题
-        sc.nextLine(); //清空缓冲区
-        System.out.print("输入一个字符串: ");
-        String s1 = sc.nextLine().toUpperCase();
-        System.out.println(s1);
+       sc.nextLine(); //清空缓冲区
+       System.out.print("输入一个字符串: ");
+       String s1 = sc.nextLine().toUpperCase();
+       System.out.println(s1);
+
 
 //以下为第三题
         // sc.nextLine(); //清空缓冲区

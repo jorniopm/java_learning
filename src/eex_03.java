@@ -18,34 +18,29 @@ public class eex_03 {
         
         System.out.println("欢迎使用长方体计算程序！");
         
-        while (true) {
-            System.out.println("\n请输入长方体的三边长度（或输入0退出）：");
+
+        System.out.println("\n请输入长方体的三边长度：");
             
-            System.out.print("长度：");
-            double length = scanner.nextDouble();
+        System.out.print("长度：");
+        double length = scanner.nextDouble();
             
-            // 检查是否退出
-            if (length == 0) {
-                break;
-            }
+        System.out.print("宽度：");
+        double width = scanner.nextDouble();
             
-            System.out.print("宽度：");
-            double width = scanner.nextDouble();
+        System.out.print("高度：");
+        double height = scanner.nextDouble();
             
-            System.out.print("高度：");
-            double height = scanner.nextDouble();
+        // 计算当前长方体的体积和表面积
+        double volume = calculateVolume(length, width, height);
+        double surfaceArea = calculateSurfaceArea(length, width, height);
             
-            // 计算当前长方体的体积和表面积
-            double volume = calculateVolume(length, width, height);
-            double surfaceArea = calculateSurfaceArea(length, width, height);
+        // 累加到总量中
+        totalVolume += volume;
+        totalSurfaceArea += surfaceArea;
             
-            // 累加到总量中
-            totalVolume += volume;
-            totalSurfaceArea += surfaceArea;
-            
-            // 显示当前长方体的计算结果
-            System.out.printf("当前长方体 - 体积：%.2f, 表面积：%.2f\n", volume, surfaceArea);
-        }
+        // 显示当前长方体的计算结果
+        System.out.printf("当前长方体 - 体积：%.2f, 表面积：%.2f\n", volume, surfaceArea);
+
         
         // 显示最终结果
         System.out.printf("\n最终结果：\n");

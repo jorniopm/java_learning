@@ -31,7 +31,6 @@ public class eex_01 {
         Random random = new Random();
         // 生成1到100之间的随机整数
         int randomNumber = random.nextInt(100) + 1;
-        
         // 检查数字的整除性
         checkDivisibility(randomNumber);
     }

@@ -4,6 +4,6 @@ public class Ex2 {
         Student student = new Student("B17010101", "张三", "男", "1999年9月9日", "软件工程");
         
         // 输出学生信息
-        System.out.println("学生信息：" + student.toString());
+        System.out.println("学生信息：" + student);
     }
 }

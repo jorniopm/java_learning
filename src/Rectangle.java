@@ -4,10 +4,10 @@ public class Rectangle {
     private double height;
     
     // 无参构造方法
-    public Rectangle() {
-        this.width = 0;
-        this.height = 0;
-    }
+    // public Rectangle() {
+    //     this.width = 0;
+    //     this.height = 0;
+    // }
     
     // 带参数构造方法
     public Rectangle(double width, double height) {

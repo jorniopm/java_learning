@@ -46,7 +46,7 @@ public class People {
     
     // 计算年龄
     protected int calculateAge() {
-        if (pBirth.length() < 4) return 0;
+        // if (pBirth.length() < 4) return 0;
         int birthYear = Integer.parseInt(pBirth.substring(0, 4));
         return 2024 - birthYear;
     }

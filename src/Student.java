@@ -1,16 +1,13 @@
 public class Student extends People {
-    // 私有属性
     private String sNo;
     private String sMajor;
-    
-    // 默认构造方法
+
     public Student() {
         super();
         this.sNo = "";
         this.sMajor = "";
     }
     
-    // 带参数构造方法
     public Student(String sNo, String name, String sex, String birth, String major) {
         super(name, sex, birth);
         this.sNo = sNo;

@@ -4,11 +4,11 @@ public class PlainRect extends Rectangle {
     private double startY;
     
     // 无参构造方法
-    public PlainRect() {
-        super();
-        this.startX = 0;
-        this.startY = 0;
-    }
+    // public PlainRect() {
+    //     super();
+    //     this.startX = 0;
+    //     this.startY = 0;
+    // }
     
     // 带参数构造方法
     public PlainRect(double startX, double startY, double width, double height) {
